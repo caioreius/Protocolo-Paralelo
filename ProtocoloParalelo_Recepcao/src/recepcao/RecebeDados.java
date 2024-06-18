@@ -5,10 +5,6 @@
  */
 package recepcao;
 
-/**
- *
- * @author flavio
- */
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -71,7 +67,7 @@ public class RecebeDados extends Thread {
                 while (!fim) {
                     DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
                     serverSocket.receive(receivePacket);
-                    System.out.println("dado recebido");
+                    System.out.println("Dado recebido");
 
                     byte[] tmp = receivePacket.getData();
 
@@ -92,11 +88,11 @@ public class RecebeDados extends Thread {
                             enviaAck(fim, false);//////////////
                             num++;
                         } else {
-                            System.out.println("descartado");///////
+                            System.out.println("Pacote descartado");///////
                         }
                     }else{
                         enviaAck(fim,true);
-                        System.out.println("perda do pacote");
+                        System.out.println("Perda do pacote");
                     }
                     
                 }
