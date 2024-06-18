@@ -11,13 +11,9 @@ import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author flavio
- */
 public class Envia {
 	public static void main(String[] args) {
-		Semaphore sem = new Semaphore(5);
+		Semaphore sem = new Semaphore(1);
                 boolean fim = false;
 		
 		EnviaDados e = new EnviaDados(sem, "envia",fim);
@@ -31,11 +27,11 @@ public class Envia {
                 
 		try {
 			e.join();
-			System.out.println("fim envia");
+			System.out.println("Fim envia");
 			r.join();
-			System.out.println("fim recebe Ack");
+			System.out.println("Fim recebe Ack");
                         t.join();
-			System.out.println("fim timer");
+			System.out.println("Fim timer");
 		} catch (InterruptedException ex) {
 			Logger.getLogger(Envia.class.getName()).log(Level.SEVERE, null, ex);
 		}
