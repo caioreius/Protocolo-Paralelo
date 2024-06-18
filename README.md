@@ -40,8 +40,8 @@ A funcionalidade de paralelismo já foi implementada, permitindo que múltiplos 
 ### Estrutura do Projeto
 
 - `src/`: Diretório contendo os arquivos de código-fonte.
-  - `EnviaDados.java`: Implementação da classe de envio de dados.
-  - `RecebeDados.java`: Implementação da classe de recebimento de dados.
+  - `envio/EnviaDados.java`: Implementação da classe de envio de dados.
+  - `recepcao/RecebeDados.java`: Implementação da classe de recebimento de dados.
 - `README.md`: Instruções do projeto.
 - `build.xml` ou `pom.xml`: Arquivo de configuração do build (Ant ou Maven, se necessário).
 
