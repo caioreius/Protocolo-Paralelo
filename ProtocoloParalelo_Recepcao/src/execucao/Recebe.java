@@ -9,10 +9,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import recepcao.RecebeDados;
 
-/**
- *
- * @author flavio
- */
 public class Recebe {
 	public static void main(String[] args) {
 		RecebeDados r = new RecebeDados();
