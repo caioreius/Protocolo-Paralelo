@@ -166,7 +166,7 @@ public class EnviaDados extends Thread {
                 int x =0;
                 try {
                     while (!fim) {
-                        Thread.sleep(5000);
+                        Thread.sleep(50);
                         if (teste != -1) {
                             if (reenvio) {
                                 x = 0;
