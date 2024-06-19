@@ -77,7 +77,7 @@ public class RecebeDados extends Thread {
                     byte[] tmp = receivePacket.getData();
 
                     numero = (float) Math.random();
-                    if (numero > 0.5) {
+                    if (numero > 0.6) {
                         numSequencia = ((tmp[1396] & 0xff) << 24) + ((tmp[1397] & 0xff) << 16) + ((tmp[1398] & 0xff) << 8) + ((tmp[1399] & 0xff)); //retiro o numero de sequencia do pacote que chegou
                         if (numSequencia == num) {
                             for (int i = 0; i < tmp.length - 4; i = i + 4) {////////
