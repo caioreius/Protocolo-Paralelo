@@ -66,3 +66,36 @@ java -cp src/execucao/Recebe.java
 ## Conclusão
 
 Este projeto tem como objetivo aprimorar o entendimento do protocolo Go-Back-N através da implementação prática de suas principais características, como o número de sequência nos pacotes e a retransmissão de pacotes perdidos utilizando temporizadores. Ao completar estas implementações, você terá uma aplicação funcional de envio e recebimento de dados que simula um ambiente de rede real com controle de fluxo e manejo de erros.
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/caioreius">
+        <img width=100 src="https://avatars.githubusercontent.com/u/87735654?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Caio Eduardo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+          <a href="https://github.com/gabrielpereira3">
+            <img width=100 src="https://avatars.githubusercontent.com/u/58240821?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
+            <sub>
+              <b>Gabriel Pereira Soares</b>
+            </sub>
+          </a>
+     </td>
+  </tr>
+</table>
+
+<!---## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENSE]() para mais detalhes.--->
+
+[⬆ Voltar ao topo](#projeto-de-redes-de-computadores-implementação-do-protocolo-go-back-n-protocoloparalelo)<br>
+
+<!---Fim README.md teste--->
