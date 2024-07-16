@@ -49,18 +49,18 @@ A funcionalidade de paralelismo já foi implementada, permitindo que múltiplos 
 
 1. Faça o download do código disponibilizado no Google Classroom.
 2. Implemente as funcionalidades faltantes conforme descrito acima.
-3. Compile os arquivos Java:
+3. Compile os arquivos Java e os execute nessa ordem.
 
-4. Execute a classe `Envia` no computador que enviará os dados:
-
-```bash
-java -cp src/execucao/Envia.java
-```
-
-5. Execute a classe `Recebe` no computador que receberá os dados:
+4. Execute a classe `Recebe` no computador que receberá os dados:
 
 ```bash
 java -cp src/execucao/Recebe.java
+```
+
+5. Execute a classe `Envia` no computador que enviará os dados:
+
+```bash
+java -cp src/execucao/Envia.java
 ```
 
 ## Conclusão
